@@ -1,0 +1,19 @@
+.navbar-brand{
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar-collapse{
+    padding-left: 150px;
+}
+.nav-item{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    background-color: rgb(219, 217, 217);
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 130px;
+}
+.search-button{
+    padding-right: 30px;
+}
