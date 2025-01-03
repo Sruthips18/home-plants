@@ -40,3 +40,16 @@
     color: #034e2b;
     padding: 30px;
 }
+
+/* categories */
+.card{
+    height: 350px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid #034e2b ;
+}
+.cat{
+    display: flex;
+    justify-content: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+}
