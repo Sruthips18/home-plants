@@ -19,11 +19,13 @@
 <body>
 
      <!--------------------- Nav Bar section --------------------------------------->
-
      <nav class="navbar navbar-expand-lg bg-body-white">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Verdura<i class="fa-solid fa-leaf"></i></a>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <a class="navbar-brand page-head" href="#">Verdura<i class="fa-solid fa-leaf"></i></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#home">Home</a>
@@ -45,7 +47,7 @@
               </li>
             </ul>
           </div>
-          <div class="nav-icons">
+          <div class="nav-icons" id="navbarNavDropdown">
             <input class="search-input" type="text" placeholder="Search">
             <i class="nav-icon fa-regular fa-user"></i>
             <i class="nav-icon fa-solid fa-cart-shopping"></i>
@@ -56,10 +58,10 @@
 
       <!-- ----------------- home starting ------------------------------------------ -->
       
-      <div class="container-fluid-home" id="home">
-         <div class="row">
-            <div class="col-lg-4 col-12 ">
-                <img class="home-image" src="images/home_plant1.jpg" alt="">
+      <div class="container-fluid container-home" id="home">
+         <div class="row p-4">
+            <div class="col-lg-4 col-md-4 col-sm-5 col-12">
+                <img class="img-fluid home-image" src="images/home_plant1.jpg" alt="">
             </div>
             <div class="col-lg-8 col-md-4 col-sm-5 col-12  home-texts">
                 <h4><b> Nature Home - Fresh Greenery for Every Space</b></h4><br>
@@ -79,42 +81,77 @@
       <div class="container p-2" id="category">
         <h3 class="heading">Category</h3>
         <div class="row">
-            <div class="col-lg-3 ">
-                <div class="card" style="width: 12rem;">
-                    <img src="images/category/hydroponic_plants.jpg" height="280" class="card-img-top" alt="Hydroponic Plants">
+            <div class="col-lg-2 ">
+                <div class="card card-category" style="width: 9rem;">
+                    <img src="images/category/hydroponic_plants.jpg" height="150" class="card-img-top" alt="Hydroponic Plants">
                     <div class="card-body">
                       <p class="card-text"><b>Hydroponic Plants</b></p>
                     </div>
                   </div>
             </div>
-            <div class="col-lg-3 pt-4">
-                <div class="card" style="width: 12rem;">
-                    <img src="images/category/indoor.jpg" height="280" class="card-img-top" alt="Indoor Plant">
+            <div class="col-lg-2 pt-4">
+                <div class="card card-category" style="width: 9rem;">
+                    <img src="images/category/indoor.jpg" height="150" class="card-img-top" alt="Indoor Plant">
                     <div class="card-body">
                       <p class="card-text"><b>Indoor Plant</b></p>
                     </div>
                   </div>
             </div>
-            <div class="col-lg-3">
-                <div class="card" style="width: 12rem;">
-                    <img src="images/category/outdoor_plants.jpg" height="280" class="card-img-top" alt="Outdoor Plant.">
+            <div class="col-lg-2">
+                <div class="card card-category" style="width: 9rem;">
+                    <img src="images/category/outdoor_plants.jpg" height="150" class="card-img-top" alt="Outdoor Plant.">
                     <div class="card-body">
                       <p class="card-text"><b>Outdoor Plant</b></p>
                     </div>
                   </div>
             </div>
-            <div class="col-lg-3 pt-4">
-                <div class="card" style="width: 12rem;">
-                    <img src="images/category/semiindoor.jpg" height="280" class="card-img-top" alt="Semi-Indoor Plant">
+            <div class="col-lg-2 pt-4">
+                <div class="card card-category" style="width: 9rem;">
+                    <img src="images/category/semiindoor.jpg" height="150" class="card-img-top" alt="Semi-Indoor Plant">
                     <div class="card-body">
                       <p class="card-text"><b>Semi-Indoor Plant</b></p>
                     </div>
                   </div>
             </div>
+            <div class="col-lg-2">
+              <div class="card card-category" style="width: 9rem;">
+                  <img src="images/category/pots_soils.jpg" height="150" class="card-img-top" alt="pots and soils">
+                  <div class="card-body">
+                    <p class="card-text"><b>Pots & Soils</b></p>
+                  </div>
+                </div>
+          </div>
+          <div class="col-lg-2 pt-4">
+            <div class="card card-category" style="width: 9rem;">
+                <img src="images/category/seeds.jpg" height="150" class="card-img-top" alt="seeds">
+                <div class="card-body">
+                  <p class="card-text"><b>Seeds</b></p>
+                </div>
+              </div>
+        </div>
         </div>
       </div>
 
       <!-- ------------------Category section ends ----------------------------------- -->
+      <!-- ------------------ Blogs starts -------------------------------------------- -->
+      <div class="container">
+        <div class="row">
+            <h3 class="heading">Blogs</h3>
+            <p class="blogs-text">Incorporating greenery into your home can completely change its ambiance and aesthetic. 
+                Plants not only enhance the beauty of your living space but also bring a host of benefits, 
+                such as improved air quality, reduced stress, and a closer connection to nature</p>
+            <div class="col-lg-4 p-5">
+                <img src="images/blogs/blogs_photo1.jpg" height="200" alt="">
+            </div>
+            <div class="col-lg-8 p-5">
+                <h3> Understand Your Plant's Needs</h3>
+                <p>Every plant is unique in its water requirements.While succulents and cacti prefer infrequent watering, ferns and tropical plants need consiste
+                    ntly moist soil. Research your plant type to unde
+                    rstand its specific needs.</p>
+            </div>
+        </div>
+      </div>
+      <!-- ------------------ Blogs starts -------------------------------------------- -->
 
     
 </body>

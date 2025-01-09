@@ -1,5 +1,5 @@
 /* Navbar  style */
-.navbar-brand{
+.page-head{
     color: green;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -16,17 +16,9 @@
 .nav-icon{
     padding-right: 40px;
 }
-.sub-para{
-    background-color: #034e2b;
-    color: white;
-    border-radius: 50px;
-    width: 75%;
-}
 
 /* home styling */
-.container-fluid-home{
-    height: 70vh;
-    padding: 40px 40px;
+.container-home{
     background-color: #b8d3be;
 }
 .home-image{
@@ -40,16 +32,29 @@
     color: #034e2b;
     padding: 30px;
 }
+.sub-para{
+    background-color: #034e2b;
+    color: white;
+    border-radius: 50px;
+    width: 75%;
+    padding-left: 20px;
+}
 
 /* categories */
-.card{
-    height: 350px;
+.card-category{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: 1px solid #034e2b ;
+    border: 1px dashed #034e2b ;
+    height: 250px;
+   
 }
-.cat{
+.heading{
     display: flex;
     justify-content: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 20px;
+}
+/* blogs */
+.blogs-text{
+    font-family:'Times New Roman', Times, serif;
+    color: #034e2b;
 }
