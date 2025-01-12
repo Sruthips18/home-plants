@@ -61,3 +61,17 @@
 .blog-img{
     border: black 2px solid;
 }
+
+/* offers */
+
+/* about us */
+.about{
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+/* footer */
+.footer{
+    background-color: #9fcdb7;
+}
